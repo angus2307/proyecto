@@ -1,0 +1,14 @@
+# Goal
+string sector_origen
+float64 potencia_requerida
+---
+# Result
+bool exito
+float64 potencia_generada_final
+string mensaje
+---
+# Feedback
+string evento
+string estado_transformadores
+float64 estabilidad_voltaje
+float64 potencia_actual

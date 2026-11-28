@@ -26,6 +26,9 @@ endif()
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/MedicionElectrica.msg"
+  "msg/SectorInfo.msg"
   "srv/ObtenerSectores.srv"
+  "action/GestionCarga.action"
 )
 ament_package()

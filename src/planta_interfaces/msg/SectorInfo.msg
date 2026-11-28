@@ -1,0 +1,3 @@
+string nombre_sector
+bool estado
+MedicionElectrica medicion
