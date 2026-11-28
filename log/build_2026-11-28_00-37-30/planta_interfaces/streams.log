@@ -1,0 +1,246 @@
+[0.037s] Invoking command in '/home/angelzambrano/proyecto/build/planta_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelzambrano/proyecto/install/ejecutable:/home/angelzambrano/launch/install/my_py_pkg:/home/angelzambrano/servicios/install/my_py_pkg:/home/angelzambrano/nodopublipy/install/my_py_pkg:/home/angelzambrano/nodopublipy/src/install/my_py_pkg:/home/angelzambrano/turtlesim/install/turtlesim_examples_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/angelzambrano/proyecto/src/planta_interfaces -DCMAKE_INSTALL_PREFIX=/home/angelzambrano/proyecto/install/planta_interfaces
+[0.190s] -- The C compiler identification is GNU 13.3.0
+[0.332s] -- The CXX compiler identification is GNU 13.3.0
+[0.358s] -- Detecting C compiler ABI info
+[0.502s] -- Detecting C compiler ABI info - done
+[0.513s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.513s] -- Detecting C compile features
+[0.514s] -- Detecting C compile features - done
+[0.539s] -- Detecting CXX compiler ABI info
+[0.744s] -- Detecting CXX compiler ABI info - done
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.769s] -- Detecting CXX compile features
+[0.769s] -- Detecting CXX compile features - done
+[0.776s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.997s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.137s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.272s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.341s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.401s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.078s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.745s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.521s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.725s] -- Found PythonExtra: /usr/bin/python3  
+[4.303s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.398s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.410s] -- Added test 'lint_cmake' to check CMake code style
+[4.413s] -- Added test 'xmllint' to check XML markup files
+[4.435s] -- Configuring done (4.4s)
+[4.498s] -- Generating done (0.1s)
+[4.513s] -- Build files have been written to: /home/angelzambrano/proyecto/build/planta_interfaces
+[4.532s] Invoked command in '/home/angelzambrano/proyecto/build/planta_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelzambrano/proyecto/install/ejecutable:/home/angelzambrano/launch/install/my_py_pkg:/home/angelzambrano/servicios/install/my_py_pkg:/home/angelzambrano/nodopublipy/install/my_py_pkg:/home/angelzambrano/nodopublipy/src/install/my_py_pkg:/home/angelzambrano/turtlesim/install/turtlesim_examples_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/angelzambrano/proyecto/src/planta_interfaces -DCMAKE_INSTALL_PREFIX=/home/angelzambrano/proyecto/install/planta_interfaces
+[4.533s] Invoking command in '/home/angelzambrano/proyecto/build/planta_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelzambrano/proyecto/install/ejecutable:/home/angelzambrano/launch/install/my_py_pkg:/home/angelzambrano/servicios/install/my_py_pkg:/home/angelzambrano/nodopublipy/install/my_py_pkg:/home/angelzambrano/nodopublipy/src/install/my_py_pkg:/home/angelzambrano/turtlesim/install/turtlesim_examples_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/angelzambrano/proyecto/build/planta_interfaces -- -j6 -l6
+[4.631s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.631s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.647s] [  5%] Built target ament_cmake_python_copy_planta_interfaces
+[4.921s] [  5%] Built target planta_interfaces__rosidl_generator_type_description
+[4.932s] running egg_info
+[4.934s] creating planta_interfaces.egg-info
+[4.944s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.945s] [  8%] Built target planta_interfaces__rs
+[4.956s] writing planta_interfaces.egg-info/PKG-INFO
+[4.957s] writing dependency_links to planta_interfaces.egg-info/dependency_links.txt
+[4.957s] writing top-level names to planta_interfaces.egg-info/top_level.txt
+[4.957s] writing manifest file 'planta_interfaces.egg-info/SOURCES.txt'
+[4.976s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.023s] reading manifest file 'planta_interfaces.egg-info/SOURCES.txt'
+[5.024s] writing manifest file 'planta_interfaces.egg-info/SOURCES.txt'
+[5.087s] [ 11%] Built target ament_cmake_python_build_planta_interfaces_egg
+[5.438s] [ 14%] [32mBuilding C object CMakeFiles/planta_interfaces__rosidl_generator_c.dir/rosidl_generator_c/planta_interfaces/srv/detail/obtener_sectores__description.c.o[0m
+[5.459s] [ 17%] [32mBuilding C object CMakeFiles/planta_interfaces__rosidl_generator_c.dir/rosidl_generator_c/planta_interfaces/srv/detail/obtener_sectores__functions.c.o[0m
+[5.461s] [ 20%] [32mBuilding C object CMakeFiles/planta_interfaces__rosidl_generator_c.dir/rosidl_generator_c/planta_interfaces/srv/detail/obtener_sectores__type_support.c.o[0m
+[5.497s] [ 20%] Built target planta_interfaces__cpp
+[5.592s] [ 22%] [32m[1mLinking C shared library libplanta_interfaces__rosidl_generator_c.so[0m
+[5.702s] [ 22%] Built target planta_interfaces__rosidl_generator_c
+[5.734s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.734s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.737s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.737s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.739s] [ 37%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.761s] [ 40%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.269s] [ 42%] [32mBuilding CXX object CMakeFiles/planta_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/planta_interfaces/srv/obtener_sectores__type_support.cpp.o[0m
+[6.283s] [ 45%] [32mBuilding CXX object CMakeFiles/planta_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/planta_interfaces/srv/obtener_sectores__type_support.cpp.o[0m
+[6.359s] [ 48%] [32mBuilding CXX object CMakeFiles/planta_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/planta_interfaces/srv/detail/obtener_sectores__type_support.cpp.o[0m
+[6.398s] [ 51%] [32mBuilding C object CMakeFiles/planta_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/planta_interfaces/srv/detail/obtener_sectores__type_support.c.o[0m
+[6.431s] [ 54%] [32m[1mLinking CXX shared library libplanta_interfaces__rosidl_typesupport_c.so[0m
+[6.431s] [ 57%] [32mBuilding CXX object CMakeFiles/planta_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/planta_interfaces/srv/detail/dds_fastrtps/obtener_sectores__type_support.cpp.o[0m
+[6.547s] [ 60%] [32mBuilding CXX object CMakeFiles/planta_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/planta_interfaces/srv/detail/obtener_sectores__type_support_c.cpp.o[0m
+[6.588s] [ 62%] [32m[1mLinking C shared library libplanta_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.588s] [ 62%] Built target planta_interfaces__rosidl_typesupport_c
+[6.676s] [ 62%] Built target planta_interfaces__rosidl_typesupport_introspection_c
+[7.113s] [ 65%] [32m[1mLinking CXX shared library libplanta_interfaces__rosidl_typesupport_cpp.so[0m
+[7.295s] [ 68%] [32m[1mLinking CXX shared library libplanta_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.344s] [ 68%] Built target planta_interfaces__rosidl_typesupport_cpp
+[7.429s] [ 71%] [32m[1mLinking CXX shared library libplanta_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.497s] [ 71%] Built target planta_interfaces__rosidl_typesupport_introspection_cpp
+[7.573s] [ 71%] Built target planta_interfaces__rosidl_typesupport_fastrtps_c
+[7.599s] [ 74%] [32m[1mLinking CXX shared library libplanta_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.727s] [ 74%] Built target planta_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.779s] [ 74%] Built target planta_interfaces
+[7.820s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.339s] [ 77%] Built target planta_interfaces__py
+[8.390s] [ 80%] [32mBuilding C object CMakeFiles/planta_interfaces__rosidl_generator_py.dir/rosidl_generator_py/planta_interfaces/srv/_obtener_sectores_s.c.o[0m
+[8.582s] [ 82%] [32m[1mLinking C shared library libplanta_interfaces__rosidl_generator_py.so[0m
+[8.668s] [ 82%] Built target planta_interfaces__rosidl_generator_py
+[8.715s] [ 85%] [32mBuilding C object CMakeFiles/planta_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/planta_interfaces/_planta_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.718s] [ 88%] [32mBuilding C object CMakeFiles/planta_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/planta_interfaces/_planta_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.721s] [ 91%] [32mBuilding C object CMakeFiles/planta_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/planta_interfaces/_planta_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.924s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/planta_interfaces/planta_interfaces_s__rosidl_typesupport_c.so[0m
+[8.930s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/planta_interfaces/planta_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[8.943s] [100%] [32m[1mLinking C shared module rosidl_generator_py/planta_interfaces/planta_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[9.014s] [100%] Built target planta_interfaces_s__rosidl_typesupport_c
+[9.031s] [100%] Built target planta_interfaces_s__rosidl_typesupport_fastrtps_c
+[9.044s] [100%] Built target planta_interfaces_s__rosidl_typesupport_introspection_c
+[9.073s] Invoked command in '/home/angelzambrano/proyecto/build/planta_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelzambrano/proyecto/install/ejecutable:/home/angelzambrano/launch/install/my_py_pkg:/home/angelzambrano/servicios/install/my_py_pkg:/home/angelzambrano/nodopublipy/install/my_py_pkg:/home/angelzambrano/nodopublipy/src/install/my_py_pkg:/home/angelzambrano/turtlesim/install/turtlesim_examples_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/angelzambrano/proyecto/build/planta_interfaces -- -j6 -l6
+[9.096s] Invoking command in '/home/angelzambrano/proyecto/build/planta_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelzambrano/proyecto/install/ejecutable:/home/angelzambrano/launch/install/my_py_pkg:/home/angelzambrano/servicios/install/my_py_pkg:/home/angelzambrano/nodopublipy/install/my_py_pkg:/home/angelzambrano/nodopublipy/src/install/my_py_pkg:/home/angelzambrano/turtlesim/install/turtlesim_examples_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/angelzambrano/proyecto/build/planta_interfaces
+[9.110s] -- Install configuration: ""
+[9.110s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/ament_index/resource_index/rosidl_interfaces/planta_interfaces
+[9.119s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/srv/ObtenerSectores.json
+[9.120s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces
+[9.121s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv
+[9.122s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail
+[9.122s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__type_support.c
+[9.123s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__description.c
+[9.123s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__functions.h
+[9.124s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__type_support.h
+[9.124s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__functions.c
+[9.124s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__struct.h
+[9.124s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/obtener_sectores.h
+[9.124s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/msg
+[9.124s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.124s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/environment/library_path.sh
+[9.125s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/environment/library_path.dsv
+[9.125s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_generator_c.so
+[9.126s] -- Set non-toolchain portion of runtime path of "/home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_generator_c.so" to ""
+[9.126s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces
+[9.128s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv
+[9.128s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail
+[9.128s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__rosidl_typesupport_fastrtps_c.h
+[9.129s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/msg
+[9.129s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.129s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.129s] -- Set non-toolchain portion of runtime path of "/home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.129s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces
+[9.129s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv
+[9.129s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail
+[9.129s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__type_support.c
+[9.129s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__rosidl_typesupport_introspection_c.h
+[9.129s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/msg
+[9.129s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.129s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_typesupport_introspection_c.so
+[9.130s] -- Set non-toolchain portion of runtime path of "/home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.130s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_typesupport_c.so
+[9.130s] -- Set non-toolchain portion of runtime path of "/home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_typesupport_c.so" to ""
+[9.130s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces
+[9.130s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv
+[9.130s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail
+[9.130s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__struct.hpp
+[9.130s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__builder.hpp
+[9.130s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__traits.hpp
+[9.130s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__type_support.hpp
+[9.131s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/obtener_sectores.hpp
+[9.131s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/msg
+[9.131s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.131s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces
+[9.131s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv
+[9.131s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail
+[9.131s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/dds_fastrtps
+[9.131s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__rosidl_typesupport_fastrtps_cpp.hpp
+[9.131s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/msg
+[9.131s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.131s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.131s] -- Set non-toolchain portion of runtime path of "/home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.132s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces
+[9.132s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv
+[9.132s] -- Up-to-date: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail
+[9.132s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__rosidl_typesupport_introspection_cpp.hpp
+[9.132s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/include/planta_interfaces/planta_interfaces/srv/detail/obtener_sectores__type_support.cpp
+[9.132s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.132s] -- Set non-toolchain portion of runtime path of "/home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.132s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_typesupport_cpp.so
+[9.132s] -- Set non-toolchain portion of runtime path of "/home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.132s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/environment/pythonpath.sh
+[9.132s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/environment/pythonpath.dsv
+[9.132s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces-0.0.0-py3.12.egg-info
+[9.133s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[9.133s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[9.133s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[9.133s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[9.136s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces
+[9.136s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/planta_interfaces_s__rosidl_typesupport_introspection_c.so
+[9.136s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/_planta_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.136s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/_planta_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.137s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/srv
+[9.138s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/srv/__init__.py
+[9.139s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/srv/_obtener_sectores.py
+[9.139s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/srv/_obtener_sectores_s.c
+[9.139s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/planta_interfaces_s__rosidl_typesupport_c.so
+[9.139s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/_planta_interfaces_s.ep.rosidl_typesupport_c.c
+[9.139s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/planta_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[9.139s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/__init__.py
+[9.211s] Listing '/home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces'...
+[9.211s] Compiling '/home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/__init__.py'...
+[9.211s] Listing '/home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/srv'...
+[9.211s] Compiling '/home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/srv/__init__.py'...
+[9.211s] Compiling '/home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/srv/_obtener_sectores.py'...
+[9.219s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/planta_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[9.223s] -- Set non-toolchain portion of runtime path of "/home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/planta_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[9.224s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/planta_interfaces_s__rosidl_typesupport_introspection_c.so
+[9.224s] -- Set non-toolchain portion of runtime path of "/home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/planta_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[9.224s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/planta_interfaces_s__rosidl_typesupport_c.so
+[9.224s] -- Set non-toolchain portion of runtime path of "/home/angelzambrano/proyecto/install/planta_interfaces/lib/python3.12/site-packages/planta_interfaces/planta_interfaces_s__rosidl_typesupport_c.so" to ""
+[9.225s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_generator_py.so
+[9.225s] -- Set non-toolchain portion of runtime path of "/home/angelzambrano/proyecto/install/planta_interfaces/lib/libplanta_interfaces__rosidl_generator_py.so" to ""
+[9.225s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/rust
+[9.225s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/rust/Cargo.toml
+[9.225s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/rust/src
+[9.226s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/rust/src/lib.rs
+[9.226s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/rust/src/srv
+[9.227s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/rust/src/srv/rmw.rs
+[9.227s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/rust/src/srv.rs
+[9.228s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/rust/build.rs
+[9.228s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/srv/ObtenerSectores.idl
+[9.229s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/srv/ObtenerSectores.srv
+[9.229s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/ament_index/resource_index/package_run_dependencies/planta_interfaces
+[9.229s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/ament_index/resource_index/parent_prefix_path/planta_interfaces
+[9.229s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/environment/ament_prefix_path.sh
+[9.231s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/environment/ament_prefix_path.dsv
+[9.231s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/environment/path.sh
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/environment/path.dsv
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/local_setup.bash
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/local_setup.sh
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/local_setup.zsh
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/local_setup.dsv
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/package.dsv
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/ament_index/resource_index/packages/planta_interfaces
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/export_planta_interfaces__rosidl_generator_cExport.cmake
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/export_planta_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/export_planta_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/export_planta_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/planta_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/planta_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.232s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/planta_interfaces__rosidl_typesupport_cExport.cmake
+[9.233s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/planta_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.233s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/export_planta_interfaces__rosidl_generator_cppExport.cmake
+[9.233s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/export_planta_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.233s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/export_planta_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.234s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/planta_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.234s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/planta_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.234s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/planta_interfaces__rosidl_typesupport_cppExport.cmake
+[9.234s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/planta_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.234s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/export_planta_interfaces__rosidl_generator_pyExport.cmake
+[9.234s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/export_planta_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.234s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.234s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.234s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.234s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.235s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.235s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.235s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.235s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[9.235s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/planta_interfacesConfig.cmake
+[9.236s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/cmake/planta_interfacesConfig-version.cmake
+[9.236s] -- Installing: /home/angelzambrano/proyecto/install/planta_interfaces/share/planta_interfaces/package.xml
+[9.240s] Invoked command in '/home/angelzambrano/proyecto/build/planta_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelzambrano/proyecto/install/ejecutable:/home/angelzambrano/launch/install/my_py_pkg:/home/angelzambrano/servicios/install/my_py_pkg:/home/angelzambrano/nodopublipy/install/my_py_pkg:/home/angelzambrano/nodopublipy/src/install/my_py_pkg:/home/angelzambrano/turtlesim/install/turtlesim_examples_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/angelzambrano/proyecto/build/planta_interfaces

@@ -1,8 +1,7 @@
 Metadata-Version: 2.1
 Name: ejecutable
 Version: 0.0.0
-Summary: TODO: Package description
+Summary: Nodos de sectores y planta
 Maintainer: angelzambrano
-Maintainer-email: <anguzamb@espol.edu.ec>
-License: TODO: License declaration
-Provides-Extra: test
+Maintainer-email: anguzamb@espol.edu.ec
+License: Apache-2.0

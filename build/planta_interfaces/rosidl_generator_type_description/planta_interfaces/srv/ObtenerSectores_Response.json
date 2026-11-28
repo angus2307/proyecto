@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "planta_interfaces/srv/ObtenerSectores_Response",
+      "fields": [
+        {
+          "name": "exito",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "lineas",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "planta_interfaces/srv/ObtenerSectores_Response",
+      "hash_string": "RIHS01_00707e987f2a7f6224c861b48ce1fd08f52281d047432701fe279f4d8efbd6a2"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[0.911s] Invoking command in '/home/angelzambrano/proyecto/src/ejecutable': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/angelzambrano/proyecto/build/ejecutable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejecutable build --build-base /home/angelzambrano/proyecto/build/ejecutable/build install --record /home/angelzambrano/proyecto/build/ejecutable/install.log --install-scripts $base/lib/ejecutable --single-version-externally-managed install_data
+[1.244s] running egg_info
+[1.261s] writing ../../build/ejecutable/ejecutable.egg-info/PKG-INFO
+[1.261s] writing dependency_links to ../../build/ejecutable/ejecutable.egg-info/dependency_links.txt
+[1.262s] writing entry points to ../../build/ejecutable/ejecutable.egg-info/entry_points.txt
+[1.262s] writing requirements to ../../build/ejecutable/ejecutable.egg-info/requires.txt
+[1.263s] writing top-level names to ../../build/ejecutable/ejecutable.egg-info/top_level.txt
+[1.299s] reading manifest file '../../build/ejecutable/ejecutable.egg-info/SOURCES.txt'
+[1.301s] writing manifest file '../../build/ejecutable/ejecutable.egg-info/SOURCES.txt'
+[1.302s] running build
+[1.302s] running build_py
+[1.302s] copying ejecutable/sectorC.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+[1.303s] copying ejecutable/sectorB.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+[1.303s] running install
+[1.311s] running install_lib
+[1.332s] copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/sectorC.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+[1.332s] copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/sectorB.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+[1.333s] byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/sectorC.py to sectorC.cpython-312.pyc
+[1.336s] byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/sectorB.py to sectorB.cpython-312.pyc
+[1.338s] running install_data
+[1.339s] running install_egg_info
+[1.379s] removing '/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable-0.0.0-py3.12.egg-info' (and everything under it)
+[1.381s] Copying ../../build/ejecutable/ejecutable.egg-info to /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable-0.0.0-py3.12.egg-info
+[1.382s] running install_scripts
+[1.547s] Installing planta script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+[1.548s] Installing sectorA script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+[1.549s] Installing sectorB script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+[1.549s] Installing sectorC script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+[1.549s] writing list of installed files to '/home/angelzambrano/proyecto/build/ejecutable/install.log'
+[1.585s] Invoked command in '/home/angelzambrano/proyecto/src/ejecutable' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/angelzambrano/proyecto/build/ejecutable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejecutable build --build-base /home/angelzambrano/proyecto/build/ejecutable/build install --record /home/angelzambrano/proyecto/build/ejecutable/install.log --install-scripts $base/lib/ejecutable --single-version-externally-managed install_data

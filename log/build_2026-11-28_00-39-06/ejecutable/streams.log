@@ -1,0 +1,27 @@
+[0.893s] Invoking command in '/home/angelzambrano/proyecto/src/ejecutable': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/angelzambrano/proyecto/build/ejecutable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejecutable build --build-base /home/angelzambrano/proyecto/build/ejecutable/build install --record /home/angelzambrano/proyecto/build/ejecutable/install.log --install-scripts $base/lib/ejecutable --single-version-externally-managed install_data
+[1.228s] running egg_info
+[1.250s] writing ../../build/ejecutable/ejecutable.egg-info/PKG-INFO
+[1.251s] writing dependency_links to ../../build/ejecutable/ejecutable.egg-info/dependency_links.txt
+[1.251s] writing entry points to ../../build/ejecutable/ejecutable.egg-info/entry_points.txt
+[1.252s] writing requirements to ../../build/ejecutable/ejecutable.egg-info/requires.txt
+[1.252s] writing top-level names to ../../build/ejecutable/ejecutable.egg-info/top_level.txt
+[1.302s] reading manifest file '../../build/ejecutable/ejecutable.egg-info/SOURCES.txt'
+[1.306s] writing manifest file '../../build/ejecutable/ejecutable.egg-info/SOURCES.txt'
+[1.306s] running build
+[1.307s] running build_py
+[1.308s] copying ejecutable/sectorA.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+[1.308s] running install
+[1.319s] running install_lib
+[1.340s] copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/sectorA.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+[1.341s] byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/sectorA.py to sectorA.cpython-312.pyc
+[1.343s] running install_data
+[1.344s] running install_egg_info
+[1.365s] removing '/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable-0.0.0-py3.12.egg-info' (and everything under it)
+[1.365s] Copying ../../build/ejecutable/ejecutable.egg-info to /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable-0.0.0-py3.12.egg-info
+[1.366s] running install_scripts
+[1.520s] Installing planta script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+[1.521s] Installing sectorA script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+[1.521s] Installing sectorB script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+[1.522s] Installing sectorC script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+[1.523s] writing list of installed files to '/home/angelzambrano/proyecto/build/ejecutable/install.log'
+[1.559s] Invoked command in '/home/angelzambrano/proyecto/src/ejecutable' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/angelzambrano/proyecto/build/ejecutable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejecutable build --build-base /home/angelzambrano/proyecto/build/ejecutable/build install --record /home/angelzambrano/proyecto/build/ejecutable/install.log --install-scripts $base/lib/ejecutable --single-version-externally-managed install_data

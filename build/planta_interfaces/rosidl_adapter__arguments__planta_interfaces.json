@@ -1,0 +1,6 @@
+{
+  "package_name": "planta_interfaces",
+  "non_idl_tuples": [
+    "/home/angelzambrano/proyecto/src/planta_interfaces:srv/ObtenerSectores.srv"
+  ]
+}

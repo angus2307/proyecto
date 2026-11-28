@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from planta_interfaces/srv/ObtenerSectores.srv
+// generated code does not contain a copyright notice
+
+
+module planta_interfaces {
+  module srv {
+    struct ObtenerSectores_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ObtenerSectores_Response {
+      boolean exito;
+
+      sequence<string> lineas;
+    };
+  };
+};

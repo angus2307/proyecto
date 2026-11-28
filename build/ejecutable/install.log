@@ -1,5 +1,15 @@
+/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/accionesbase.py
+/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/sectorC.py
+/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/planta.py
 /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/__init__.py
+/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/sectorA.py
+/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/sectorB.py
+/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/__pycache__/accionesbase.cpython-312.pyc
+/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/__pycache__/sectorC.cpython-312.pyc
+/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/__pycache__/planta.cpython-312.pyc
 /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/__pycache__/__init__.cpython-312.pyc
+/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/__pycache__/sectorA.cpython-312.pyc
+/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/__pycache__/sectorB.cpython-312.pyc
 /home/angelzambrano/proyecto/install/ejecutable/share/ament_index/resource_index/packages/ejecutable
 /home/angelzambrano/proyecto/install/ejecutable/share/ejecutable/package.xml
 /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable-0.0.0-py3.12.egg-info/PKG-INFO
@@ -8,3 +18,8 @@
 /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable-0.0.0-py3.12.egg-info/SOURCES.txt
 /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable-0.0.0-py3.12.egg-info/top_level.txt
 /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable-0.0.0-py3.12.egg-info/requires.txt
+/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable-0.0.0-py3.12.egg-info/entry_points.txt
+/home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable/planta
+/home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable/sectorA
+/home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable/sectorB
+/home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable/sectorC

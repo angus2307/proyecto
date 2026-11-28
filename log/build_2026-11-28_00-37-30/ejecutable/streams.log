@@ -1,0 +1,52 @@
+[1.322s] Invoking command in '/home/angelzambrano/proyecto/src/ejecutable': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/angelzambrano/proyecto/build/ejecutable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejecutable build --build-base /home/angelzambrano/proyecto/build/ejecutable/build install --record /home/angelzambrano/proyecto/build/ejecutable/install.log --install-scripts $base/lib/ejecutable --single-version-externally-managed install_data
+[1.737s] running egg_info
+[1.737s] creating ../../build/ejecutable/ejecutable.egg-info
+[1.773s] writing ../../build/ejecutable/ejecutable.egg-info/PKG-INFO
+[1.773s] writing dependency_links to ../../build/ejecutable/ejecutable.egg-info/dependency_links.txt
+[1.774s] writing entry points to ../../build/ejecutable/ejecutable.egg-info/entry_points.txt
+[1.775s] writing requirements to ../../build/ejecutable/ejecutable.egg-info/requires.txt
+[1.775s] writing top-level names to ../../build/ejecutable/ejecutable.egg-info/top_level.txt
+[1.775s] writing manifest file '../../build/ejecutable/ejecutable.egg-info/SOURCES.txt'
+[1.856s] reading manifest file '../../build/ejecutable/ejecutable.egg-info/SOURCES.txt'
+[1.857s] writing manifest file '../../build/ejecutable/ejecutable.egg-info/SOURCES.txt'
+[1.857s] running build
+[1.858s] running build_py
+[1.858s] creating /home/angelzambrano/proyecto/build/ejecutable/build
+[1.859s] creating /home/angelzambrano/proyecto/build/ejecutable/build/lib
+[1.859s] creating /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+[1.859s] copying ejecutable/accionesbase.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+[1.861s] copying ejecutable/sectorC.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+[1.861s] copying ejecutable/planta.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+[1.861s] copying ejecutable/__init__.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+[1.861s] copying ejecutable/sectorA.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+[1.861s] copying ejecutable/sectorB.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+[1.861s] running install
+[1.876s] running install_lib
+[1.905s] creating /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+[1.906s] copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/accionesbase.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+[1.906s] copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/sectorC.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+[1.912s] copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/planta.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+[1.912s] copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/__init__.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+[1.912s] copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/sectorA.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+[1.912s] copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/sectorB.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+[1.913s] byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/accionesbase.py to accionesbase.cpython-312.pyc
+[1.915s] byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/sectorC.py to sectorC.cpython-312.pyc
+[1.915s] byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/planta.py to planta.cpython-312.pyc
+[1.915s] byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/__init__.py to __init__.cpython-312.pyc
+[1.915s] byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/sectorA.py to sectorA.cpython-312.pyc
+[1.915s] byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/sectorB.py to sectorB.cpython-312.pyc
+[1.915s] running install_data
+[1.915s] creating /home/angelzambrano/proyecto/install/ejecutable/share/ament_index
+[1.915s] creating /home/angelzambrano/proyecto/install/ejecutable/share/ament_index/resource_index
+[1.917s] creating /home/angelzambrano/proyecto/install/ejecutable/share/ament_index/resource_index/packages
+[1.917s] copying resource/ejecutable -> /home/angelzambrano/proyecto/install/ejecutable/share/ament_index/resource_index/packages
+[1.917s] copying package.xml -> /home/angelzambrano/proyecto/install/ejecutable/share/ejecutable
+[1.917s] running install_egg_info
+[1.952s] Copying ../../build/ejecutable/ejecutable.egg-info to /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable-0.0.0-py3.12.egg-info
+[1.954s] running install_scripts
+[2.205s] Installing planta script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+[2.205s] Installing sectorA script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+[2.206s] Installing sectorB script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+[2.206s] Installing sectorC script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+[2.206s] writing list of installed files to '/home/angelzambrano/proyecto/build/ejecutable/install.log'
+[2.324s] Invoked command in '/home/angelzambrano/proyecto/src/ejecutable' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/angelzambrano/proyecto/build/ejecutable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejecutable build --build-base /home/angelzambrano/proyecto/build/ejecutable/build install --record /home/angelzambrano/proyecto/build/ejecutable/install.log --install-scripts $base/lib/ejecutable --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+[console_scripts]
+planta = ejecutable.planta:main
+sectorA = ejecutable.sectorA:main
+sectorB = ejecutable.sectorB:main
+sectorC = ejecutable.sectorC:main

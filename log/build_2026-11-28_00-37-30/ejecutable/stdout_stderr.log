@@ -1,0 +1,50 @@
+running egg_info
+creating ../../build/ejecutable/ejecutable.egg-info
+writing ../../build/ejecutable/ejecutable.egg-info/PKG-INFO
+writing dependency_links to ../../build/ejecutable/ejecutable.egg-info/dependency_links.txt
+writing entry points to ../../build/ejecutable/ejecutable.egg-info/entry_points.txt
+writing requirements to ../../build/ejecutable/ejecutable.egg-info/requires.txt
+writing top-level names to ../../build/ejecutable/ejecutable.egg-info/top_level.txt
+writing manifest file '../../build/ejecutable/ejecutable.egg-info/SOURCES.txt'
+reading manifest file '../../build/ejecutable/ejecutable.egg-info/SOURCES.txt'
+writing manifest file '../../build/ejecutable/ejecutable.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/angelzambrano/proyecto/build/ejecutable/build
+creating /home/angelzambrano/proyecto/build/ejecutable/build/lib
+creating /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+copying ejecutable/accionesbase.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+copying ejecutable/sectorC.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+copying ejecutable/planta.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+copying ejecutable/__init__.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+copying ejecutable/sectorA.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+copying ejecutable/sectorB.py -> /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable
+running install
+running install_lib
+creating /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/accionesbase.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/sectorC.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/planta.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/__init__.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/sectorA.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+copying /home/angelzambrano/proyecto/build/ejecutable/build/lib/ejecutable/sectorB.py -> /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable
+byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/accionesbase.py to accionesbase.cpython-312.pyc
+byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/sectorC.py to sectorC.cpython-312.pyc
+byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/planta.py to planta.cpython-312.pyc
+byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/sectorA.py to sectorA.cpython-312.pyc
+byte-compiling /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable/sectorB.py to sectorB.cpython-312.pyc
+running install_data
+creating /home/angelzambrano/proyecto/install/ejecutable/share/ament_index
+creating /home/angelzambrano/proyecto/install/ejecutable/share/ament_index/resource_index
+creating /home/angelzambrano/proyecto/install/ejecutable/share/ament_index/resource_index/packages
+copying resource/ejecutable -> /home/angelzambrano/proyecto/install/ejecutable/share/ament_index/resource_index/packages
+copying package.xml -> /home/angelzambrano/proyecto/install/ejecutable/share/ejecutable
+running install_egg_info
+Copying ../../build/ejecutable/ejecutable.egg-info to /home/angelzambrano/proyecto/install/ejecutable/lib/python3.12/site-packages/ejecutable-0.0.0-py3.12.egg-info
+running install_scripts
+Installing planta script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+Installing sectorA script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+Installing sectorB script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+Installing sectorC script to /home/angelzambrano/proyecto/install/ejecutable/lib/ejecutable
+writing list of installed files to '/home/angelzambrano/proyecto/build/ejecutable/install.log'

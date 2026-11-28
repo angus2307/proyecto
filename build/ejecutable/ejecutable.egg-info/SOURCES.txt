@@ -4,10 +4,16 @@ setup.py
 ../../build/ejecutable/ejecutable.egg-info/PKG-INFO
 ../../build/ejecutable/ejecutable.egg-info/SOURCES.txt
 ../../build/ejecutable/ejecutable.egg-info/dependency_links.txt
+../../build/ejecutable/ejecutable.egg-info/entry_points.txt
 ../../build/ejecutable/ejecutable.egg-info/requires.txt
 ../../build/ejecutable/ejecutable.egg-info/top_level.txt
 ../../build/ejecutable/ejecutable.egg-info/zip-safe
 ejecutable/__init__.py
+ejecutable/accionesbase.py
+ejecutable/planta.py
+ejecutable/sectorA.py
+ejecutable/sectorB.py
+ejecutable/sectorC.py
 resource/ejecutable
 test/test_copyright.py
 test/test_flake8.py

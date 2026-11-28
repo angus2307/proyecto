@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "planta_interfaces__py",
+		"source" : "/home/angelzambrano/proyecto/build/planta_interfaces/planta_interfaces__py"
+	}
+}

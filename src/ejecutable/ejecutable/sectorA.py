@@ -21,6 +21,13 @@ class SectorA(Node):
         self.add_on_set_parameters_callback(self.parametros_callback)
 
         self.get_logger().info(f'Sector A iniciado | V: {self.voltaje}V | I: {self.corriente}A')
+    
+    def publicar_datos(self):
+        potencia = round(self.voltaje * self.corriente, 2)
+        msg = String()
+        msg.data = f"Sector A|{self.estado}|{self.voltaje}|{self.corriente}|{potencia}"
+        self.publisher_.publish(msg)
+        self.get_logger().info(f'Publicando -> {msg.data}')
 
     def parametros_callback(self, params):
         for param in params:
@@ -32,12 +39,6 @@ class SectorA(Node):
                 self.estado = param.value
             self.get_logger().info(f'[Sector A] Cambio -> {param.name}: {param.value}')
         return SetParametersResult(successful=True)
-
-    def publicar_datos(self):
-        potencia = round(self.voltaje * self.corriente, 2)
-        msg = String()
-        msg.data = f"Sector A|{self.estado}|{self.voltaje}|{self.corriente}|{potencia}"
-        self.publisher_.publish(msg)
 
 def main(args=None):
     rclpy.init(args=args)
