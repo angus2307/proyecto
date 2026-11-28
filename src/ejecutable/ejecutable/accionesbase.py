@@ -3,7 +3,7 @@ tm = False
 tp = False
 
 potenciaR = 130      # requerida
-potenciaGe = 100    
+potenciaGe = 100    #base
 
 transformadorG = 50
 transformadorM = 30

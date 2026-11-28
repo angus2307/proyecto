@@ -9,7 +9,6 @@ class Planta(Node):
         super().__init__('planta')
         self.datos_sectores = {}
 
-        # Suscriptor que recibe los datos de Sector A, B y C
         self.subscription = self.create_subscription(
             String,
             '/info_sectores',
@@ -17,7 +16,6 @@ class Planta(Node):
             10
         )
 
-        # Servidor de servicio que devuelve la información línea por línea
         self.srv = self.create_service(
             ObtenerSectores,
             '/mostrar_sectores',
@@ -37,7 +35,6 @@ class Planta(Node):
         if not self.datos_sectores:
             response.exito = False
             response.lineas = ["Aun no llegan datos de los sectores a la planta."]
-            self.get_logger().warn("Servicio llamado, pero aun no hay datos recibidos.")
             return response
 
         response.exito = True
